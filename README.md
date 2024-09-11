@@ -23,3 +23,5 @@ EOF help quit
 (hbnb) show User 2c1a1339-65e3-4e1b-bb3c-80e6efdc5792 [User] (2c1a1339-65e3-4e1b-bb3c-80e6efdc5792) {'id': '2c1a1339-65e3-4e1b-bb3c-80e6efdc5792', 'created_at': '2024-05-10T12:00:00', 'updated_at': '2024-05-10T12:00:00'}
 
 (hbnb) quit
+
+Thanks
