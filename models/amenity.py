@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """defines amenity class that inherits from the parent class"""
-
 from models.base_model import BaseModel
 
 
