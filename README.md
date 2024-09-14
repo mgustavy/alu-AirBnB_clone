@@ -1,27 +1,66 @@
-Project AirBnB clone Description This project is a command-line interpreter (CLI) for managing AirBnB objects. It allows users to create, retrieve, update, and delete objects such as users, states, cities, and places in a simplified version of the Airbnb clone.
 
-Command Interpreter The command interpreter provides a user-friendly interface for interacting with AirBnB objects. It supports various operations, including creating new objects, retrieving objects, updating object attributes, and deleting objects.
+# AirBnB Clone Console
 
-How to Start To start the command interpreter, follow these steps:
+# Overview
 
-Clone the repository to your local machine. Navigate to the project directory. Run the command interpreter script (console.py). Example:
+The AirBnB Clone is a command-line interface (CLI) application for managing an AirBnB-like system. This project allows users to interact with different models (User, State, City, Place, Amenity, Review) to create, show, update, destroy, and list instances of these models.
 
-$ git clone https://github.com/mgustavy/alu-AirBnB_clone.git $ cd alu-AirBnB_clone $ ./console.py Welcome to the AirBnB Command Interpreter! Type 'help' or 'h' for a list of available commands.
+# Features
 
-(hbnb) (hbnb) help Documented commands (type help ):
-EOF help quit
+- **Create**: Instantiate new objects and save them to a JSON file.
+- **Show**: Display the string representation of an instance by its class and ID.
+- **Destroy**: Delete an instance by its class and ID.
+- **All**: List all instances of a given class, or all instances if no class is specified.
+- **Update**: Update attributes of an instance or add new attributes.
 
-How to Use Once the command interpreter is running, you can use the following commands:
+# Usage
 
-help: Display available commands and their descriptions. create <class_name>: Create a new instance of the specified class. show <class_name> : Show details of the instance with the specified ID. destroy <class_name> : Delete the instance with the specified ID. update <class_name> <attribute_name> "<new_value>": Update the attribute of the instance with the specified ID. Examples
+The CLI interface is implemented using Python's `cmd` module. The application provides several commands to interact with the models.
 
-$ ./console.py (hbnb) help Documented commands (type help ):
-EOF help quit
+# Commands
 
-(hbnb) create User 2c1a1339-65e3-4e1b-bb3c-80e6efdc5792
+- **`quit`**: Exit the program.
+- **`EOF`**: Exit the program when End Of File (EOF) is reached.
+- **`create <class_name>`**: Create a new instance of the specified class and print its ID. Classes include `BaseModel`, `User`, `State`, `City`, `Amenity`, `Place`, and `Review`.
+- **`show <class_name> <id>`**: Display the string representation of an instance of the specified class with the given ID.
+- **`destroy <class_name> <id>`**: Delete the instance of the specified class with the given ID.
+- **`all`**: Display string representations of all instances or all instances of a specified class.
+- **`update <class_name> <id> <attribute_name> <attribute_value>`**: Update an attribute of the instance with the specified class and ID. You can also use `update <class_name> <id> <dictionary>` to update multiple attributes.
 
-(hbnb) show User 2c1a1339-65e3-4e1b-bb3c-80e6efdc5792 [User] (2c1a1339-65e3-4e1b-bb3c-80e6efdc5792) {'id': '2c1a1339-65e3-4e1b-bb3c-80e6efdc5792', 'created_at': '2024-05-10T12:00:00', 'updated_at': '2024-05-10T12:00:00'}
+# Example
 
-(hbnb) quit
+```shell
+(hbnb) create User
+# Output: <user_id>
 
-Thanks!
+(hbnb) show User <user_id>
+# Output: <User object representation>
+
+(hbnb) update User <user_id> email "example@example.com"
+# Updates the email attribute of the User object
+
+(hbnb) all
+# List all instances
+```
+
+# Installation
+
+1. **Clone the repository**:
+   ```shell
+   git clone https://github.com/yourusername/airbnb_clone.git
+   cd airbnb_clone
+   ```
+
+2. **Run the program**:
+   ```shell
+   python3 console.py
+   ```
+
+
+# Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request with your proposed changes. Make sure to adhere to the code style and include appropriate tests for your changes.
+
+License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
