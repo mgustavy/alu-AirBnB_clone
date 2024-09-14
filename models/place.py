@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 """defines place class that inherits from the parent class"""
+from models.base_model import BaseModel
+
+
+
 class Place(BaseModel):
     """Place class inherits from BaseModel, stores information about places."""
     city_id = ""

@@ -1,5 +1,7 @@
 import uuid
 from datetime import datetime
+#import the storage engine/package
+from models import storage
 
 class BaseModel:
     """defines all common attributes/methods for child classes"""
