@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module for console"""
+"""Module for the console"""
 import cmd
 import shlex
 import re
@@ -58,7 +58,7 @@ class HBNBCommand(cmd.Cmd):
 
     def emptyline(self):
         """
-        Do nothing when an empty line is entered.
+        Do nothing when an empty line is entered.(Or when a user presses ENTER)
         """
         pass
 
