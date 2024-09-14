@@ -24,4 +24,4 @@ EOF help quit
 
 (hbnb) quit
 
-Thanks
+Thanks!
