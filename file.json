@@ -1,0 +1,50 @@
+{
+  "Amenity.b6f62c4f-3ead-4bc9-884d-b8114d8c6ca2": {
+    "id": "b6f62c4f-3ead-4bc9-884d-b8114d8c6ca2",
+    "created_at": "2024-09-14T23:34:43.411085",
+    "updated_at": "2024-09-14T23:34:43.411092",
+    "__class__": "Amenity"
+  },
+  "Amenity.2b4e74b7-e68a-41ec-8751-4fb651b7b05c": {
+    "id": "2b4e74b7-e68a-41ec-8751-4fb651b7b05c",
+    "created_at": "2024-09-14T23:34:43.411142",
+    "updated_at": "2024-09-14T23:34:43.411142",
+    "__class__": "Amenity"
+  },
+  "Amenity.e5443586-b1a6-47f2-b606-6e0593e8a64c": {
+    "id": "e5443586-b1a6-47f2-b606-6e0593e8a64c",
+    "created_at": "2024-09-14T23:34:43.411164",
+    "updated_at": "2024-09-14T23:34:43.411165",
+    "__class__": "Amenity"
+  },
+  "Amenity.b95c4e2c-4102-43c8-8a22-57e5d1e35a26": {
+    "id": "b95c4e2c-4102-43c8-8a22-57e5d1e35a26",
+    "created_at": "2024-09-14T23:34:43.411186",
+    "updated_at": "2024-09-14T23:34:43.411187",
+    "__class__": "Amenity"
+  },
+  "BaseModel.af63a7b9-9b55-4573-a9e1-29d3c3ff1adb": {
+    "id": "af63a7b9-9b55-4573-a9e1-29d3c3ff1adb",
+    "created_at": "2024-09-14T23:34:43.411217",
+    "updated_at": "2024-09-14T23:34:43.411217",
+    "__class__": "BaseModel"
+  },
+  "BaseModel.d674253c-87ac-4f6f-b15e-332b964fb393": {
+    "id": "d674253c-87ac-4f6f-b15e-332b964fb393",
+    "created_at": "2024-09-14T23:34:43.411238",
+    "updated_at": "2024-09-14T23:34:43.411238",
+    "__class__": "BaseModel"
+  },
+  "BaseModel.8d144e1f-1b6e-4914-92f2-cd0687d97599": {
+    "id": "8d144e1f-1b6e-4914-92f2-cd0687d97599",
+    "created_at": "2024-09-14T23:34:43.411256",
+    "updated_at": "2024-09-14T23:34:44.416417",
+    "__class__": "BaseModel"
+  },
+  "BaseModel.7c55c1fb-4d8b-4a3d-bd89-7a973bd72287": {
+    "id": "7c55c1fb-4d8b-4a3d-bd89-7a973bd72287",
+    "created_at": "2024-09-14T23:34:44.420897",
+    "updated_at": "2024-09-14T23:34:44.420919",
+    "__class__": "BaseModel"
+  }
+}
